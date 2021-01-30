@@ -1,0 +1,63 @@
+.links{
+font-size:20px;
+color:darkorange;
+display: inline;
+padding:10px;
+}
+.menu{
+list-style: none;
+display: table-cell;
+vertical-align: middle;
+padding-left: 33px;
+padding-right: 25px;
+background-color: crimson;
+}
+.links:hover {
+    background-color: oldlace;
+    font-size:25px;
+    text-decoration:underline;
+    color: blue;}
+.menu{
+ list-style: none;
+font-family: monospace;
+float: right;
+top: 10px;
+right: 30px;
+cursor: pointer;
+color: cornflowerblue;
+}
+#about{
+text-align: center;
+color: cyan;
+font-family: serif;
+}
+#aboutd{
+color:darkorange;
+}
+#favorite h1{
+color: cadetblue;
+}
+#favorite h2{
+color:red;
+}
+#work h1{
+color:chocolate;
+}
+#work h2{
+color:lightgreen;
+}
+#dolphin{
+margin-bottom:60px;
+}
+img{
+justify-content:space-around;
+}
+img {
+transition:  transform .2s
+}
+img:hover{
+transform:scale (0.9);
+}
+#michael{
+height:200px;
+}
